@@ -1,0 +1,35 @@
+@import "./common";
+
+.menu-toggler {
+  .v-btn__content {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    img {
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      width: 80%;
+      height: 80%;
+    }
+  }
+}
+.cta-button {
+  text-transform: capitalize !important;
+}
+
+/*=============================================
+=            Animation            =
+=============================================*/
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+/*=====  End of Animation  ======*/
